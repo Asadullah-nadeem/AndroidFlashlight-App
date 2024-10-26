@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/flashlight_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_above="@+id/toggle_flashlight_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="23dp"
+        android:contentDescription="@string/flashlight_icon_desc"
+        android:src="@drawable/flashon" />
+
+    <Button
+        android:id="@+id/toggle_flashlight_button"
+        android:layout_width="246dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/brightness_seekbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="23dp"
+        android:text="@string/toggle_flashlight" />
+
+    <SeekBar
+        android:id="@+id/brightness_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="226dp"
+        android:max="100" />
+</RelativeLayout>

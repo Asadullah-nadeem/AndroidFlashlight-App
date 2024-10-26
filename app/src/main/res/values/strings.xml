@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flashlight app</string>
+    <string name="toggle_flashlight">Flashlight</string>
+    <string name="flashlight_icon_desc">🔦</string>
+</resources>
